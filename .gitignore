@@ -1,0 +1,64 @@
+# =========================================================================
+# EduConnect - Global .gitignore
+# =========================================================================
+
+# Maven & Java
+target/
+**/target/
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+*.zip
+*.tar.gz
+*.rar
+hs_err_pid*
+replay_pid*
+
+# Flutter & Dart
+.dart_tool/
+**/.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+**/build/
+coverage/
+**/coverage/
+
+# IDEs & Editors
+.idea/
+**/.idea/
+*.iml
+**/*.iml
+*.iws
+*.ipr
+.vscode/
+**/.vscode/
+
+# Eclipse
+.apt_generated/
+.classpath
+**/.classpath
+.factorypath
+**/.factorypath
+.project
+**/.project
+.settings/
+**/.settings/
+.springBeans
+.sts4-cache/
+
+# Logs & Temporary files
+*.log
+*.tmp
+*.swp
+*.bak
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
